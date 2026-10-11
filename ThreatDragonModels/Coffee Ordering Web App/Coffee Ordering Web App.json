@@ -21,12 +21,12 @@
         "cells": [
           {
             "position": {
-              "x": 760,
-              "y": 170
+              "x": 700,
+              "y": 200
             },
             "size": {
-              "width": 200,
-              "height": 160
+              "width": 240,
+              "height": 320
             },
             "attrs": {
               "text": {
@@ -58,7 +58,7 @@
                   }
                 },
                 "right": {
-                  "position": "right",
+                  "position": "absolute",
                   "attrs": {
                     "circle": {
                       "r": 4,
@@ -73,7 +73,7 @@
                   }
                 },
                 "bottom": {
-                  "position": "bottom",
+                  "position": "absolute",
                   "attrs": {
                     "circle": {
                       "r": 4,
@@ -88,7 +88,7 @@
                   }
                 },
                 "left": {
-                  "position": "left",
+                  "position": "absolute",
                   "attrs": {
                     "circle": {
                       "r": 4,
@@ -110,15 +110,147 @@
                 },
                 {
                   "group": "right",
-                  "id": "111e7817-9dae-47b0-a304-726ab0cca30e"
+                  "id": "f0ad4ac7-24bf-40e2-97ba-bec7061ef031",
+                  "args": {
+                    "x": 182,
+                    "y": 23
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "3cb576f0-862f-460e-a935-6067112332b3",
+                  "args": {
+                    "x": 219,
+                    "y": 69
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "2e6824c5-e8d9-4df0-8afb-f96add9a4d58",
+                  "args": {
+                    "x": 235,
+                    "y": 114
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "98c5eb7d-447d-48ff-94f9-20dbb362bd39",
+                  "args": {
+                    "x": 240,
+                    "y": 160
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "134a06a9-18fc-41c5-93d5-269563b03b56",
+                  "args": {
+                    "x": 235,
+                    "y": 206
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "d2bbb0dd-cc3f-40f3-8a2e-c559b4da8b8d",
+                  "args": {
+                    "x": 219,
+                    "y": 251
+                  }
+                },
+                {
+                  "group": "right",
+                  "id": "0dbce539-c78f-4d16-a482-d3b60e24d6b9",
+                  "args": {
+                    "x": 182,
+                    "y": 297
+                  }
                 },
                 {
                   "group": "bottom",
-                  "id": "abf26dc4-f3bb-4390-be25-1d25bc483763"
+                  "id": "a96b9a16-9891-49da-b61c-7e28b3322b2b",
+                  "args": {
+                    "x": 60,
+                    "y": 299
+                  }
+                },
+                {
+                  "group": "bottom",
+                  "id": "28d0e59d-7522-492e-a549-9dcf0df47019",
+                  "args": {
+                    "x": 180,
+                    "y": 299
+                  }
                 },
                 {
                   "group": "left",
-                  "id": "f6bfa408-c3be-4822-a8ac-8736957b2211"
+                  "id": "deb5281e-92ca-439f-b3c3-9f9c1688dd0d",
+                  "args": {
+                    "x": 65,
+                    "y": 18
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "7b18a1eb-5d3c-48f2-a5fb-d7bc2415c867",
+                  "args": {
+                    "x": 31,
+                    "y": 53
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "97842acb-03df-47ea-8dcd-28d66569d7e3",
+                  "args": {
+                    "x": 12,
+                    "y": 89
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "3500992c-24b2-485d-8190-c5b54f959db3",
+                  "args": {
+                    "x": 3,
+                    "y": 124
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "6741f92d-090a-4b79-9e91-13349d377378",
+                  "args": {
+                    "x": 0,
+                    "y": 160
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "e462ce3c-1f07-4e98-aba6-769602c5bac5",
+                  "args": {
+                    "x": 3,
+                    "y": 196
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "372b5c6f-8902-403c-a164-1e4758ea9a7d",
+                  "args": {
+                    "x": 12,
+                    "y": 231
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "e8dfb642-201f-40af-8ee0-1078dab3f60e",
+                  "args": {
+                    "x": 31,
+                    "y": 267
+                  }
+                },
+                {
+                  "group": "left",
+                  "id": "eb634036-273d-420f-81c0-3430372bc508",
+                  "args": {
+                    "x": 65,
+                    "y": 302
+                  }
                 }
               ]
             },
@@ -138,7 +270,7 @@
               "privilegeLevel": "",
               "threats": [
                 {
-                  "id": "745a9da9-bc66-4851-a77b-e07911996582",
+                  "id": "8bcffacf-a5ae-4983-ad85-fe99963f0177",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -151,7 +283,7 @@
                   "score": ""
                 },
                 {
-                  "id": "35f8341f-7d09-4b64-bf3c-b1b91e746f2b",
+                  "id": "6d2f10e1-c287-42fd-86f0-a305af0bfe0a",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -164,7 +296,7 @@
                   "score": ""
                 },
                 {
-                  "id": "e0b07dc1-178e-4219-bd36-5c258582e15d",
+                  "id": "582e6ec3-c3d8-4220-a91e-3ee8ae7dc7fa",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -177,7 +309,7 @@
                   "score": ""
                 },
                 {
-                  "id": "4c462a48-d342-4da3-9db8-865442a27834",
+                  "id": "2bbb7502-2f1d-4bc5-8e3a-e551f8f72720",
                   "title": "Order Data Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -190,7 +322,7 @@
                   "score": ""
                 },
                 {
-                  "id": "4f3c6e4c-0cbe-4eaa-95a0-51d04f220cb1",
+                  "id": "136a9459-bc6c-463d-98c1-f02b8b9fe007",
                   "title": "Menu Data Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -203,7 +335,7 @@
                   "score": ""
                 },
                 {
-                  "id": "7cf9ffac-6370-4e15-b502-8e44d8c6e983",
+                  "id": "404ed7ed-99e9-4094-86be-362f760ebd9f",
                   "title": "Sales Report Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -216,7 +348,7 @@
                   "score": ""
                 },
                 {
-                  "id": "fd6c6c20-2745-44ef-ba71-3e8870f532d9",
+                  "id": "30a38fa5-9665-44ed-b966-0bcb2103a5b5",
                   "title": "Application Code/Configuration Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -229,7 +361,7 @@
                   "score": ""
                 },
                 {
-                  "id": "0c3f31d0-3eef-42ef-b56e-ee4dec949baa",
+                  "id": "a2b2c6f6-e6dc-48ee-b031-b32fd79000fb",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
                   "severity": "Medium",
@@ -242,7 +374,7 @@
                   "score": ""
                 },
                 {
-                  "id": "f79548b8-0529-4d0e-b048-c1c01c68fcf5",
+                  "id": "b0911134-da63-42ee-8d9a-23d93768bc4f",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
                   "severity": "Medium",
@@ -255,7 +387,7 @@
                   "score": ""
                 },
                 {
-                  "id": "c833ad67-0a2b-4c14-b8d5-def006f7b8c1",
+                  "id": "10a6081e-f4dd-467a-8ac3-00f0d6d022f7",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
                   "severity": "High",
@@ -268,7 +400,7 @@
                   "score": ""
                 },
                 {
-                  "id": "03b9d14a-ed91-438d-928b-d1e330d8aa1a",
+                  "id": "dd3b292f-2b8e-42c4-b34d-bbf14ad0f728",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
                   "severity": "High",
@@ -281,7 +413,7 @@
                   "score": ""
                 },
                 {
-                  "id": "e1827b25-6511-4021-8fa5-e9d9dda1f4aa",
+                  "id": "aa9dc239-b2d2-471f-b2f0-798fe7025c7d",
                   "title": "Application Code and Configuration Disclosure",
                   "status": "Open",
                   "severity": "Medium",
@@ -294,7 +426,7 @@
                   "score": ""
                 },
                 {
-                  "id": "8e5a9159-e3f1-4153-8845-8791f6a8fc03",
+                  "id": "136a197d-4e3a-48f1-aab2-5f0920525102",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
                   "severity": "Medium",
@@ -307,7 +439,7 @@
                   "score": ""
                 },
                 {
-                  "id": "567eaebe-0a64-4522-84c6-3b1f0ee1c82a",
+                  "id": "1e6a0580-53ab-4798-9ff4-ba1898353d28",
                   "title": "Web Application Server DoS",
                   "status": "Open",
                   "severity": "Medium",
@@ -320,7 +452,7 @@
                   "score": ""
                 },
                 {
-                  "id": "9bb9b953-9ce3-4151-a1df-a7018ccc9332",
+                  "id": "1c0c5994-79fa-4967-85a0-1d70eca3e104",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
                   "severity": "Low",
@@ -333,7 +465,7 @@
                   "score": ""
                 },
                 {
-                  "id": "80b24514-7ac9-4b45-b712-f3c3accc3296",
+                  "id": "6470f97e-ec1c-4788-ba00-c01f0554b776",
                   "title": "Customer to Staff Privilege Escalation",
                   "status": "Open",
                   "severity": "High",
@@ -346,7 +478,7 @@
                   "score": ""
                 },
                 {
-                  "id": "c53b4e48-4c8b-4f6e-b495-2d311fe1db0b",
+                  "id": "126229a0-6c97-404f-8dbe-11c73cd66779",
                   "title": "Barista/Manager to Administrator Privilege Escalation",
                   "status": "Open",
                   "severity": "High",
@@ -359,7 +491,7 @@
                   "score": ""
                 },
                 {
-                  "id": "f4136166-fd31-432a-b311-d88be123ed8f",
+                  "id": "b7d3fd10-0e10-4ee9-9493-a96c80238a7a",
                   "title": "Horizontal Privilege Escalation",
                   "status": "Open",
                   "severity": "Medium",
@@ -376,12 +508,12 @@
           },
           {
             "position": {
-              "x": 745,
-              "y": 435.0000000000001
+              "x": 1300,
+              "y": 200
             },
             "size": {
               "width": 230,
-              "height": 150
+              "height": 320
             },
             "attrs": {
               "text": {
@@ -478,7 +610,31 @@
                 },
                 {
                   "group": "left",
-                  "id": "29f52f5f-a3ed-4419-aa85-bcd27eeb46b7"
+                  "id": "2f07298f-ff99-45df-9269-1bd89155b0ee"
+                },
+                {
+                  "group": "left",
+                  "id": "2ddb381f-47a9-413c-8701-5ae63029dd95"
+                },
+                {
+                  "group": "left",
+                  "id": "f1f6c21c-6e74-428e-ae26-1a30b70c5e5d"
+                },
+                {
+                  "group": "left",
+                  "id": "a29aa791-e240-4db1-846d-8779bcdd4da6"
+                },
+                {
+                  "group": "left",
+                  "id": "fe78b185-bd08-441f-b285-8e79564e48e3"
+                },
+                {
+                  "group": "left",
+                  "id": "50c32ded-abf1-40a8-a97e-700eebbcf40b"
+                },
+                {
+                  "group": "left",
+                  "id": "d9a82159-4fd2-45fd-8d73-6a79bdd5f165"
                 }
               ]
             },
@@ -499,7 +655,7 @@
               "storesInventory": false,
               "threats": [
                 {
-                  "id": "82878826-47d3-4738-99b0-29cc68f72e25",
+                  "id": "13d7672b-839f-4ea3-9abf-2c6542b669b7",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -512,7 +668,7 @@
                   "score": ""
                 },
                 {
-                  "id": "af9ed395-faa2-41c4-8c91-fe3daf4a4dd3",
+                  "id": "d8484143-a679-41fa-a307-a133b842ab3d",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -525,7 +681,7 @@
                   "score": ""
                 },
                 {
-                  "id": "773e405f-35f5-437d-bbc0-eb93d3d2a554",
+                  "id": "b8375aaa-6f30-4eca-9954-d535fbd48f13",
                   "title": "Order Data Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -538,7 +694,7 @@
                   "score": ""
                 },
                 {
-                  "id": "f136f82a-0f12-4097-b540-8dd7858a8601",
+                  "id": "b616d66e-6d06-4b59-a109-00489b174377",
                   "title": "Menu Data Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -551,7 +707,7 @@
                   "score": ""
                 },
                 {
-                  "id": "deaf9526-fd3f-4cd3-b3d7-268833501110",
+                  "id": "18e97056-9ab6-44b4-acfd-173c9a31dbe4",
                   "title": "Sales Report Tampering",
                   "status": "Open",
                   "severity": "Medium",
@@ -564,7 +720,7 @@
                   "score": ""
                 },
                 {
-                  "id": "c4111d8a-a20e-48dc-b189-72fa321db871",
+                  "id": "c20b7ee7-801d-49e2-b268-44aaf40bb2fe",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
                   "severity": "Medium",
@@ -577,7 +733,7 @@
                   "score": ""
                 },
                 {
-                  "id": "66a87604-4c5c-460b-974e-59153dc5b596",
+                  "id": "4b24c2a6-690c-4059-bfe6-894af7968c2a",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
                   "severity": "Medium",
@@ -590,7 +746,7 @@
                   "score": ""
                 },
                 {
-                  "id": "74e016fe-740c-4bbe-8bf8-14f3cf7cca7f",
+                  "id": "5c85827b-569c-43ae-b8b9-4cac579dbde2",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
                   "severity": "High",
@@ -603,7 +759,7 @@
                   "score": ""
                 },
                 {
-                  "id": "12101852-27a1-46ae-9554-f8966e01850c",
+                  "id": "eea4d87d-4b8d-474f-a9e0-7f03b02e4726",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
                   "severity": "High",
@@ -616,7 +772,7 @@
                   "score": ""
                 },
                 {
-                  "id": "7d3fce9e-cb2d-4a25-aa87-4432a4f8db9b",
+                  "id": "670a654f-3243-4c5b-b1e1-4c7bfd0dc12e",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
                   "severity": "Medium",
@@ -629,7 +785,7 @@
                   "score": ""
                 },
                 {
-                  "id": "c296d5d6-0b8c-4726-b826-83940f89d2e3",
+                  "id": "a61f51a0-2005-4795-a85d-1f0c457df159",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
                   "severity": "Low",
@@ -646,11 +802,11 @@
           },
           {
             "position": {
-              "x": 1141,
-              "y": 180
+              "x": 700,
+              "y": 800
             },
             "size": {
-              "width": 250,
+              "width": 240,
               "height": 140
             },
             "attrs": {
@@ -731,7 +887,11 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "002a3335-83aa-428f-9c0e-1bb277fdb9d4"
+                  "id": "ca78f907-82e9-4eac-a58a-be358185d33b"
+                },
+                {
+                  "group": "top",
+                  "id": "4d8b6ac8-3df2-4c93-8414-f26476fce925"
                 },
                 {
                   "group": "right",
@@ -763,12 +923,12 @@
           },
           {
             "position": {
-              "x": 353,
-              "y": 180
+              "x": 90,
+              "y": 200
             },
             "size": {
               "width": 250,
-              "height": 140
+              "height": 320
             },
             "attrs": {
               "text": {
@@ -852,7 +1012,39 @@
                 },
                 {
                   "group": "right",
-                  "id": "db4f2864-c717-4cca-8234-3f3130f67ae2"
+                  "id": "1be16c36-8036-4459-a606-096b79ec3292"
+                },
+                {
+                  "group": "right",
+                  "id": "7d347599-07c7-4592-a375-a4b3f46b05c3"
+                },
+                {
+                  "group": "right",
+                  "id": "a91005a9-d8ba-488a-af6c-27c3f7307ce9"
+                },
+                {
+                  "group": "right",
+                  "id": "b74305ad-61ce-43f1-a675-655e82970cc5"
+                },
+                {
+                  "group": "right",
+                  "id": "49785f3e-793d-4e44-b854-270d0895fa1b"
+                },
+                {
+                  "group": "right",
+                  "id": "f3bb76f2-7578-4c49-a769-0db3a0ee6dc4"
+                },
+                {
+                  "group": "right",
+                  "id": "2d2ddc85-6cf5-489a-82db-79dc555150c6"
+                },
+                {
+                  "group": "right",
+                  "id": "4e9f75ed-1ad5-4800-9377-664ccf8027c1"
+                },
+                {
+                  "group": "right",
+                  "id": "eacb4f71-9f11-49c2-b081-36c64a304151"
                 },
                 {
                   "group": "bottom",
@@ -876,7 +1068,7 @@
               "providesAuthentication": false,
               "threats": [
                 {
-                  "id": "d2adfde2-48b1-4c23-8eaf-43543c1ca348",
+                  "id": "829d7bd7-ed32-4e9b-8e72-e8a6dbb84f86",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -889,7 +1081,7 @@
                   "score": ""
                 },
                 {
-                  "id": "b9031bb6-904f-4df1-8102-e5be4570a8e2",
+                  "id": "0b2e430e-a761-4ca7-bf18-7deffc04007f",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -902,7 +1094,7 @@
                   "score": ""
                 },
                 {
-                  "id": "a54b74e4-7b50-49ed-9144-c50b0a733320",
+                  "id": "7ccbf7d7-1de4-4070-9bc8-50634fa14a34",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
                   "severity": "Medium",
@@ -920,12 +1112,12 @@
           },
           {
             "position": {
-              "x": 333,
-              "y": 110
+              "x": 50,
+              "y": 130
             },
             "size": {
-              "width": 290,
-              "height": 270
+              "width": 330,
+              "height": 440
             },
             "attrs": {
               "label": {
@@ -935,7 +1127,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "3ff78211-10be-4731-8362-d1d3c2544758",
+            "id": "b649bbbe-5256-4e50-8354-c68afd77b8ed",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Client Zone\n(Untrusted)",
@@ -946,12 +1138,12 @@
           },
           {
             "position": {
-              "x": 1121,
-              "y": 110
+              "x": 660,
+              "y": 720
             },
             "size": {
-              "width": 290,
-              "height": 270
+              "width": 320,
+              "height": 260
             },
             "attrs": {
               "label": {
@@ -961,7 +1153,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "23e211d1-9a1b-4ef9-9ea2-9c686e1fe5fa",
+            "id": "9f921fc3-4f1f-46d2-82cd-be40eb57a111",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Third-Party Zone\n(Partially Trusted)",
@@ -972,12 +1164,12 @@
           },
           {
             "position": {
-              "x": 705,
-              "y": 385
+              "x": 1260,
+              "y": 130
             },
             "size": {
               "width": 310,
-              "height": 245
+              "height": 440
             },
             "attrs": {
               "label": {
@@ -987,7 +1179,7 @@
             "visible": true,
             "shape": "trust-boundary-box",
             "zIndex": -1,
-            "id": "2f6f6e90-be12-4f3d-8d57-d0e67cb9882d",
+            "id": "a478bbb8-cc91-4be5-926b-eac5d9a19da0",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Database Zone\n(Trusts Web App Server)",
@@ -1006,7 +1198,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -1028,7 +1220,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Order, login &\nstaff requests",
+                    "text": "1.1 Submit order details",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1041,7 +1233,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.564,
+                  "distance": 0.5,
                   "args": {
                     "keepGradient": true,
                     "ensureLegibility": true
@@ -1052,25 +1244,25 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Order, login &\nstaff requests",
-              "description": "Customer and staff requests (registration/login, menu browsing, order placement, order status updates, reports, menu management) sent from the client to the Web Application Server, and the responses/confirmations returned to the client.",
+              "name": "1.1 Submit order details",
+              "description": "Data flow 1 – Customer Places an Order, step 1.1: Customer selects items, customizes them, and submits the order details to the Web Application Server.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
             },
-            "id": "679c69f5-0c88-4421-be42-529fee286361",
+            "id": "015cb718-9904-481e-bc27-f127142a1790",
             "source": {
               "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
-              "port": "db4f2864-c717-4cca-8234-3f3130f67ae2"
+              "port": "1be16c36-8036-4459-a606-096b79ec3292"
             },
             "target": {
               "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
-              "port": "f6bfa408-c3be-4822-a8ac-8736957b2211"
+              "port": "deb5281e-92ca-439f-b3c3-9f9c1688dd0d"
             },
             "vertices": []
           },
@@ -1084,7 +1276,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -1106,7 +1298,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Payment request /\ntransaction response",
+                    "text": "1.3 Payment request",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1119,7 +1311,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.445,
+                  "distance": 0.22,
                   "args": {
                     "keepGradient": true,
                     "ensureLegibility": true
@@ -1130,25 +1322,25 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Payment request /\ntransaction response",
-              "description": "The Web Application Server sends a payment request with tokenized payment information to the Payment Gateway; the gateway returns a success/failure transaction response.",
+              "name": "1.3 Payment request",
+              "description": "Data flow 1 – Customer Places an Order, step 1.3: Web Application Server initiates a payment request, sending tokenized payment information to the Payment Gateway (a third-party service).",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
             },
-            "id": "b88b3067-e919-4259-9154-2c623b63bcd8",
+            "id": "e135a03c-d870-4d75-b863-3510ba1f768a",
             "source": {
               "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
-              "port": "111e7817-9dae-47b0-a304-726ab0cca30e"
+              "port": "a96b9a16-9891-49da-b61c-7e28b3322b2b"
             },
             "target": {
               "cell": "b009c8de-f0b5-4687-8c45-74e082707dd8",
-              "port": "b79fbf5b-5cf1-4640-9e3b-fb0666a6a06f"
+              "port": "ca78f907-82e9-4eac-a58a-be358185d33b"
             },
             "vertices": []
           },
@@ -1162,7 +1354,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -1184,7 +1376,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Read / write records",
+                    "text": "1.4 Transaction response",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1197,7 +1389,7 @@
                   }
                 },
                 "position": {
-                  "distance": 0.26,
+                  "distance": 0.5,
                   "args": {
                     "keepGradient": true,
                     "ensureLegibility": true
@@ -1208,25 +1400,1195 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Read / write records",
-              "description": "The Web Application Server reads and writes user profiles, menu items, order records and staff roles/permissions in the MongoDB database and receives the query results.",
+              "name": "1.4 Transaction response",
+              "description": "Data flow 1 – Customer Places an Order, step 1.4: Payment Gateway processes the payment and sends a transaction response (success/failure) back to the Web Application Server.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "2e0606bf-5c54-4356-a3ff-b5d80117b4b0",
+            "source": {
+              "cell": "b009c8de-f0b5-4687-8c45-74e082707dd8",
+              "port": "4d8b6ac8-3df2-4c93-8414-f26476fce925"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "28d0e59d-7522-492e-a549-9dcf0df47019"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "1.5 Record order & payment",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "1.5 Record order & payment",
+              "description": "Data flow 1 – Customer Places an Order, step 1.5: If payment is successful, the Web Application Server records the new order details and payment status in the MongoDB Database.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
             },
-            "id": "492b68c1-67f6-4a6d-a6f1-36f89a950f28",
+            "id": "74077a88-32aa-443e-958f-4e5560d42d80",
             "source": {
               "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
-              "port": "abf26dc4-f3bb-4390-be25-1d25bc483763"
+              "port": "f0ad4ac7-24bf-40e2-97ba-bec7061ef031"
             },
             "target": {
               "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
-              "port": "06cf5570-0fb4-4540-9c88-6820ea1d4250"
+              "port": "2f07298f-ff99-45df-9269-1bd89155b0ee"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "1.7 Order confirmation",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "1.7 Order confirmation",
+              "description": "Data flow 1 – Customer Places an Order, step 1.7: Web Application Server sends an order confirmation and status update back to the Customer.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5cc2ccee-3554-448f-9b08-ee05576f5344",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "7b18a1eb-5d3c-48f2-a5fb-d7bc2415c867"
+            },
+            "target": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "7d347599-07c7-4592-a375-a4b3f46b05c3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.1 Request incoming orders",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.1 Request incoming orders",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.1: Barista logs into the staff interface and requests to view incoming orders from the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "652ea137-4c87-4f68-a6f6-aefb9881681b",
+            "source": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "a91005a9-d8ba-488a-af6c-27c3f7307ce9"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "97842acb-03df-47ea-8dcd-28d66569d7e3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.2 Query order data",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.2 Query order data",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.2: Web Application Server authenticates and authorizes the Barista, then queries the MongoDB Database for relevant order data.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "329db46b-613f-4feb-88e7-605070cdf81b",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "3cb576f0-862f-460e-a935-6067112332b3"
+            },
+            "target": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "2ddb381f-47a9-413c-8701-5ae63029dd95"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.3 Pending order data",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.3 Pending order data",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.3: MongoDB Database retrieves the pending order data and sends it to the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "8a23ce17-1ffb-4b76-8e5b-ef20e155dd22",
+            "source": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "f1f6c21c-6e74-428e-ae26-1a30b70c5e5d"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "2e6824c5-e8d9-4df0-8afb-f96add9a4d58"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.4 Order list",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.4 Order list",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.4: Web Application Server sends the order list to the Barista for display.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "79666441-10af-4a9e-b646-6dff1434bf2c",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "3500992c-24b2-485d-8190-c5b54f959db3"
+            },
+            "target": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "b74305ad-61ce-43f1-a675-655e82970cc5"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.6 Updated order status",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.6 Updated order status",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.6: Barista sends the updated order status (e.g., from “Received” to “Preparing”) to the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "d29de4b9-5eee-4ba1-b186-9a147b5457d0",
+            "source": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "49785f3e-793d-4e44-b854-270d0895fa1b"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "6741f92d-090a-4b79-9e91-13349d377378"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "2.7 Update order record",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.7 Update order record",
+              "description": "Data flow 2 – Barista Updates Order Status, step 2.7: Web Application Server validates the status update and updates the order record in the MongoDB Database.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "07ad313c-aef8-4e77-92eb-f5d8f7abe04b",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "98c5eb7d-447d-48ff-94f9-20dbb362bd39"
+            },
+            "target": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "a29aa791-e240-4db1-846d-8779bcdd4da6"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "3.1 Request sales reports",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.1 Request sales reports",
+              "description": "Data flow 3 – Manager Accesses Basic Sales Reports, step 3.1: Manager logs into the staff interface and requests to view basic sales reports from the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "02e936a0-330f-4168-82b3-9cd24aedb3b7",
+            "source": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "f3bb76f2-7578-4c49-a769-0db3a0ee6dc4"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "e462ce3c-1f07-4e98-aba6-769602c5bac5"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "3.2 Query sales data",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.2 Query sales data",
+              "description": "Data flow 3 – Manager Accesses Basic Sales Reports, step 3.2: Web Application Server authenticates and authorizes the Manager, then queries the MongoDB Database for aggregated sales data.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "7d4a35b8-deed-4d49-9d62-6f72ee9bb57a",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "134a06a9-18fc-41c5-93d5-269563b03b56"
+            },
+            "target": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "fe78b185-bd08-441f-b285-8e79564e48e3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "3.3 Aggregated sales data",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.3 Aggregated sales data",
+              "description": "Data flow 3 – Manager Accesses Basic Sales Reports, step 3.3: MongoDB Database retrieves the requested sales data and sends it back to the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "9bdd582a-50aa-4c50-813a-39b07490224e",
+            "source": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "50c32ded-abf1-40a8-a97e-700eebbcf40b"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "d2bbb0dd-cc3f-40f3-8a2e-c559b4da8b8d"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "3.4 Sales report",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.4 Sales report",
+              "description": "Data flow 3 – Manager Accesses Basic Sales Reports, step 3.4: Web Application Server processes the sales data (e.g., calculates totals, formats for display) and sends it as a response to the Manager.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "3486b7ed-881a-4161-89ee-aca203481f0c",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "372b5c6f-8902-403c-a164-1e4758ea9a7d"
+            },
+            "target": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "2d2ddc85-6cf5-489a-82db-79dc555150c6"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "4.2 Submit new menu item",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "4.2 Submit new menu item",
+              "description": "Data flow 4 – Administrator Adds New Menu Item, step 4.2: Administrator inputs details for a new menu item (name, description, price, etc.) and submits the information to the Web Application Server.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "c4b3d9f4-5445-499a-a746-1a86959cafca",
+            "source": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "4e9f75ed-1ad5-4800-9377-664ccf8027c1"
+            },
+            "target": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "e8dfb642-201f-40af-8ee0-1078dab3f60e"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "4.4 Create menu item",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "4.4 Create menu item",
+              "description": "Data flow 4 – Administrator Adds New Menu Item, step 4.4: Web Application Server sends the validated new menu item data to the MongoDB Database for creation.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "c8498a71-0153-495a-ba15-de4327aa1a62",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "0dbce539-c78f-4d16-a482-d3b60e24d6b9"
+            },
+            "target": {
+              "cell": "f1bcdd48-226b-4562-9e82-f68f09e70067",
+              "port": "d9a82159-4fd2-45fd-8d73-6a79bdd5f165"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "4.6 Menu item confirmation",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "4.6 Menu item confirmation",
+              "description": "Data flow 4 – Administrator Adds New Menu Item, step 4.6: Web Application Server sends a confirmation of the successful menu item addition back to the Administrator.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "db8a85cf-8b82-4449-a02a-edd1352e0f2b",
+            "source": {
+              "cell": "0da2ef64-aa5b-43d0-9bbb-0b77d7dcd686",
+              "port": "eb634036-273d-420f-81c0-3430372bc508"
+            },
+            "target": {
+              "cell": "8d60b91d-c0bb-4e84-90aa-d9599cab3a2c",
+              "port": "eacb4f71-9f11-49c2-b081-36c64a304151"
             },
             "vertices": []
           }
