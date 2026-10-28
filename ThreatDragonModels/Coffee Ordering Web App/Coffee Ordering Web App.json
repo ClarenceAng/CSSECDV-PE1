@@ -167,7 +167,7 @@
                   "id": "5822a43b-0269-4a02-9fcd-4748a63f7b26",
                   "args": {
                     "x": 240,
-                    "y": 35.0
+                    "y": 35
                   }
                 },
                 {
@@ -175,7 +175,7 @@
                   "id": "8ced3dcd-c7a2-41bb-8553-87f9caf9ed92",
                   "args": {
                     "x": 240,
-                    "y": 105.0
+                    "y": 105
                   }
                 }
               ]
@@ -279,31 +279,31 @@
                   "id": "b9b46b53-9d53-4243-8c8d-0635992891ec",
                   "args": {
                     "x": 6.3,
-                    "y": 65.0
+                    "y": 65
                   }
                 },
                 {
                   "group": "abs",
                   "id": "11a887f4-5a72-4540-9746-7753f3ba1cdb",
                   "args": {
-                    "x": 40.0,
-                    "y": 180.0
+                    "x": 40,
+                    "y": 180
                   }
                 },
                 {
                   "group": "abs",
                   "id": "f34b363e-eff6-4bbb-a43b-d94bb1ad00b1",
                   "args": {
-                    "x": 160.0,
-                    "y": 180.0
+                    "x": 160,
+                    "y": 180
                   }
                 },
                 {
                   "group": "abs",
                   "id": "8a1522ae-be2d-4035-896a-a9d249fa418b",
                   "args": {
-                    "x": 200.0,
-                    "y": 100.0
+                    "x": 200,
+                    "y": 100
                   }
                 },
                 {
@@ -311,7 +311,7 @@
                   "id": "24b4c588-4801-42b9-894c-dcc1e402f201",
                   "args": {
                     "x": 6.3,
-                    "y": 135.0
+                    "y": 135
                   }
                 }
               ]
@@ -618,7 +618,7 @@
                   "id": "11d43eaf-88d3-4367-8386-c52c12c4c965",
                   "args": {
                     "x": 0,
-                    "y": 50.0
+                    "y": 50
                   }
                 }
               ]
@@ -829,7 +829,7 @@
                   "group": "abs",
                   "id": "ea256f61-0f0f-4479-83e2-93fe1541073b",
                   "args": {
-                    "x": 60.0,
+                    "x": 60,
                     "y": 0
                   }
                 },
@@ -837,7 +837,7 @@
                   "group": "abs",
                   "id": "d8144c7d-4a46-4e8c-bf1b-56d50d478e78",
                   "args": {
-                    "x": 180.0,
+                    "x": 180,
                     "y": 0
                   }
                 }
@@ -1405,7 +1405,7 @@
                   "id": "7707107a-f841-43e7-8e81-e3f388d40106",
                   "args": {
                     "x": 240,
-                    "y": 20.0
+                    "y": 20
                   }
                 },
                 {
@@ -1413,7 +1413,7 @@
                   "id": "85b2e639-ffc9-4357-9253-db15a66167e3",
                   "args": {
                     "x": 240,
-                    "y": 70.0
+                    "y": 70
                   }
                 },
                 {
@@ -1421,7 +1421,7 @@
                   "id": "6cdedcdf-563f-483a-bcd9-aeca8649218d",
                   "args": {
                     "x": 240,
-                    "y": 120.0
+                    "y": 120
                   }
                 }
               ]
@@ -1525,15 +1525,15 @@
                   "id": "f43eb950-2c36-4ca0-ae74-82e44ad08d46",
                   "args": {
                     "x": 13.4,
-                    "y": 50.0
+                    "y": 50
                   }
                 },
                 {
                   "group": "abs",
                   "id": "7845f0d4-15b7-49f8-adf8-43664dd3ee2e",
                   "args": {
-                    "x": 0.0,
-                    "y": 100.0
+                    "x": 0,
+                    "y": 100
                   }
                 },
                 {
@@ -1541,7 +1541,7 @@
                   "id": "93897909-f025-4d12-901d-2eefc3590c01",
                   "args": {
                     "x": 13.4,
-                    "y": 150.0
+                    "y": 150
                   }
                 },
                 {
@@ -1549,15 +1549,15 @@
                   "id": "988a7dc1-2e0e-4bd3-a875-6e48ca00b24b",
                   "args": {
                     "x": 189.3,
-                    "y": 55.0
+                    "y": 55
                   }
                 },
                 {
                   "group": "abs",
                   "id": "ef8b40b2-d678-48a4-9e05-c286411770ec",
                   "args": {
-                    "x": 200.0,
-                    "y": 100.0
+                    "x": 200,
+                    "y": 100
                   }
                 },
                 {
@@ -1565,7 +1565,7 @@
                   "id": "ce47fb72-7117-4354-b784-ee17b52226b9",
                   "args": {
                     "x": 189.3,
-                    "y": 145.0
+                    "y": 145
                   }
                 }
               ]
@@ -1872,7 +1872,7 @@
                   "id": "78185323-2033-40c6-b841-bf0b84d808f8",
                   "args": {
                     "x": 0,
-                    "y": 20.0
+                    "y": 20
                   }
                 },
                 {
@@ -1880,7 +1880,7 @@
                   "id": "87b9003a-a2bc-4590-8643-d3094e854d00",
                   "args": {
                     "x": 0,
-                    "y": 50.0
+                    "y": 50
                   }
                 },
                 {
@@ -1888,7 +1888,7 @@
                   "id": "366bcfa4-af19-4674-817c-7d3ef4718464",
                   "args": {
                     "x": 0,
-                    "y": 80.0
+                    "y": 80
                   }
                 }
               ]
@@ -2581,7 +2581,14 @@
               "name": "Client Zone (Untrusted)",
               "description": "Client side is untrusted, therefore, all input originating from here must be validated on the server. The web application server trusts the client for basic UI interactions but not for data integrity or authorization decisions.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "addadd6f-1ca1-4b04-865a-fa4416ea48b8"
+              ],
+              "crossingFlows": [
+                "90e7e364-20df-459b-9c95-d705d4de17ea",
+                "01a594f0-c383-4b12-b723-4e77c3e2c8cb"
+              ]
             }
           },
           {
@@ -2607,7 +2614,16 @@
               "name": "Application Server Zone",
               "description": "Backend Web Application Server (Node.js REST API). Validates all client input and makes all authorization decisions.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "7821cb61-bcdb-40bf-ad1b-05d1398fbb86"
+              ],
+              "crossingFlows": [
+                "90e7e364-20df-459b-9c95-d705d4de17ea",
+                "01a594f0-c383-4b12-b723-4e77c3e2c8cb",
+                "6bdf7e18-99fc-4ebc-bde1-1ce33fbbf1ea",
+                "6329f746-e233-4a82-a634-43060ac32917"
+              ]
             }
           },
           {
@@ -2633,7 +2649,14 @@
               "name": "Database Zone (Trusts Web App Server)",
               "description": "The MongoDB database server trusts calls from the web application server’s identity.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "8a455af9-7caa-43e7-ab3c-08681f1ee9d1"
+              ],
+              "crossingFlows": [
+                "6bdf7e18-99fc-4ebc-bde1-1ce33fbbf1ea",
+                "6329f746-e233-4a82-a634-43060ac32917"
+              ]
             }
           },
           {
@@ -2657,8 +2680,69 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -2681,7 +2765,7 @@
                   "id": "c98a13b7-4e97-40ab-99c0-9e1fcd68e6dd",
                   "args": {
                     "x": 240,
-                    "y": 35.0
+                    "y": 35
                   }
                 },
                 {
@@ -2689,13 +2773,20 @@
                   "id": "59af575a-6f6a-4c99-8d56-977817a1a682",
                   "args": {
                     "x": 240,
-                    "y": 105.0
+                    "y": 105
                   }
+                },
+                {
+                  "group": "bottom",
+                  "id": "53f4ea72-8cfd-4129-b22b-dc559c2dad3e"
+                },
+                {
+                  "group": "left",
+                  "id": "aa13d7e7-e8ea-4558-b576-5b7086392962"
                 }
               ]
             },
             "id": "addadd6f-1ca1-4b04-865a-fa4416ea48b8",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Manager\n(Client Side / Frontend)",
@@ -2769,8 +2860,69 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -2793,7 +2945,7 @@
                   "id": "274830ab-17b3-47b0-b3fe-60270a641038",
                   "args": {
                     "x": 6.3,
-                    "y": 65.0
+                    "y": 65
                   }
                 },
                 {
@@ -2801,7 +2953,7 @@
                   "id": "6c633772-afae-4c4c-a337-3b52386b61e9",
                   "args": {
                     "x": 6.3,
-                    "y": 135.0
+                    "y": 135
                   }
                 },
                 {
@@ -2809,7 +2961,7 @@
                   "id": "97133085-be20-4124-b79f-d2a8d5df0169",
                   "args": {
                     "x": 193.7,
-                    "y": 65.0
+                    "y": 65
                   }
                 },
                 {
@@ -2817,13 +2969,12 @@
                   "id": "2a7f91aa-dab7-4bfd-b7a2-3f8bfcf18baf",
                   "args": {
                     "x": 193.7,
-                    "y": 135.0
+                    "y": 135
                   }
                 }
               ]
             },
             "id": "7821cb61-bcdb-40bf-ad1b-05d1398fbb86",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
@@ -3100,8 +3251,69 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -3124,7 +3336,7 @@
                   "id": "411df0c1-213c-4bd4-ac51-95b463f9f07f",
                   "args": {
                     "x": 0,
-                    "y": 25.0
+                    "y": 25
                   }
                 },
                 {
@@ -3132,13 +3344,20 @@
                   "id": "e5cace20-d288-44f6-ba6e-48e037d25cd2",
                   "args": {
                     "x": 0,
-                    "y": 75.0
+                    "y": 75
                   }
+                },
+                {
+                  "group": "bottom",
+                  "id": "6a25630d-b15b-4f4d-bd0a-4fab770c793b"
+                },
+                {
+                  "group": "left",
+                  "id": "4d36a946-6e9b-4ba6-ad74-056390873772"
                 }
               ]
             },
             "id": "8a455af9-7caa-43e7-ab3c-08681f1ee9d1",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB\nDatabase",
@@ -3304,7 +3523,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -3317,19 +3535,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.1 Login & request sales reports",
+              "description": "3.1 Manager logs into the staff interface and requests to view basic sales reports from the Web Application Server.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e00bc124-1649-45bd-8a8f-a0860a3cb593",
+                "0c74d617-7d35-4dcc-9ae6-0b0e9a10ed0a"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "3.1 Login & request sales reports",
                     "textAnchor": "middle",
@@ -3343,6 +3573,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -3352,20 +3592,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "3.1 Login & request sales reports",
-              "description": "3.1 Manager logs into the staff interface and requests to view basic sales reports from the Web Application Server.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "90e7e364-20df-459b-9c95-d705d4de17ea",
             "source": {
               "cell": "addadd6f-1ca1-4b04-865a-fa4416ea48b8",
@@ -3382,7 +3608,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -3395,19 +3620,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.4 Sales report",
+              "description": "3.4 Web Application Server processes the sales data (e.g., calculates totals, formats for display) and sends it as a response to the Manager (3.5 Manager displays the basic sales report on their web browser).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e00bc124-1649-45bd-8a8f-a0860a3cb593",
+                "0c74d617-7d35-4dcc-9ae6-0b0e9a10ed0a"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "3.4 Sales report",
                     "textAnchor": "middle",
@@ -3421,6 +3658,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -3430,20 +3677,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "3.4 Sales report",
-              "description": "3.4 Web Application Server processes the sales data (e.g., calculates totals, formats for display) and sends it as a response to the Manager (3.5 Manager displays the basic sales report on their web browser).",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "01a594f0-c383-4b12-b723-4e77c3e2c8cb",
             "source": {
               "cell": "7821cb61-bcdb-40bf-ad1b-05d1398fbb86",
@@ -3460,7 +3693,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -3473,19 +3705,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.2 Query aggregated sales data",
+              "description": "3.2 Web Application Server authenticates and authorizes the Manager, then queries the MongoDB Database for aggregated sales data.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "0c74d617-7d35-4dcc-9ae6-0b0e9a10ed0a",
+                "d22fb334-8e8a-4c58-a10e-14580654d03f"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "3.2 Query aggregated sales data",
                     "textAnchor": "middle",
@@ -3499,6 +3743,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -3508,20 +3762,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "3.2 Query aggregated sales data",
-              "description": "3.2 Web Application Server authenticates and authorizes the Manager, then queries the MongoDB Database for aggregated sales data.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "6bdf7e18-99fc-4ebc-bde1-1ce33fbbf1ea",
             "source": {
               "cell": "7821cb61-bcdb-40bf-ad1b-05d1398fbb86",
@@ -3538,7 +3778,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -3551,19 +3790,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "3.3 Sales data",
+              "description": "3.3 MongoDB Database retrieves the requested sales data and sends it back to the Web Application Server.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "0c74d617-7d35-4dcc-9ae6-0b0e9a10ed0a",
+                "d22fb334-8e8a-4c58-a10e-14580654d03f"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "3.3 Sales data",
                     "textAnchor": "middle",
@@ -3577,6 +3828,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -3586,20 +3847,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "3.3 Sales data",
-              "description": "3.3 MongoDB Database retrieves the requested sales data and sends it back to the Web Application Server.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "6329f746-e233-4a82-a634-43060ac32917",
             "source": {
               "cell": "8a455af9-7caa-43e7-ab3c-08681f1ee9d1",
@@ -3622,7 +3869,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Data Flow 3 – Manager Accesses Basic Sales Reports\n3.2 Server authenticates & authorizes the Manager before querying\n3.5 Manager displays the basic sales report in the web browser"
+                "text": "Data Flow 3 – Manager Accesses Basic Sales Reports\n\nSteps That Happen Inside Each Component:\n3.2 Server authenticates & authorizes the Manager before querying\n3.5 Manager displays the basic sales report in the web browser"
               }
             },
             "visible": true,
@@ -3631,7 +3878,7 @@
             "id": "6de85a6d-7f92-4643-bc30-6e843afe084b",
             "data": {
               "type": "tm.Text",
-              "name": "Data Flow 3 – Manager Accesses Basic Sales Reports\n3.2 Server authenticates & authorizes the Manager before querying\n3.5 Manager displays the basic sales report in the web browser",
+              "name": "Data Flow 3 – Manager Accesses Basic Sales Reports\n\nSteps That Happen Inside Each Component:\n3.2 Server authenticates & authorizes the Manager before querying\n3.5 Manager displays the basic sales report in the web browser",
               "hasOpenThreats": false
             }
           }
@@ -3769,7 +4016,7 @@
                   "id": "c48d31eb-27dc-4f59-a47a-7498394e97bf",
                   "args": {
                     "x": 240,
-                    "y": 20.0
+                    "y": 20
                   }
                 },
                 {
@@ -3777,7 +4024,7 @@
                   "id": "30e05be0-ab8c-49f3-ae6a-6357a4298a24",
                   "args": {
                     "x": 240,
-                    "y": 70.0
+                    "y": 70
                   }
                 },
                 {
@@ -3785,7 +4032,7 @@
                   "id": "b18f48a2-851c-4875-a2e3-7f0d57fc43d6",
                   "args": {
                     "x": 240,
-                    "y": 120.0
+                    "y": 120
                   }
                 }
               ]
@@ -3889,15 +4136,15 @@
                   "id": "7f04f63b-c08b-4cad-bbfc-fabb03cf8d10",
                   "args": {
                     "x": 13.4,
-                    "y": 50.0
+                    "y": 50
                   }
                 },
                 {
                   "group": "abs",
                   "id": "a35a03e9-3f90-4a09-8cb9-69208f6decdd",
                   "args": {
-                    "x": 0.0,
-                    "y": 100.0
+                    "x": 0,
+                    "y": 100
                   }
                 },
                 {
@@ -3905,15 +4152,15 @@
                   "id": "0f988ca4-acb3-4568-a2f4-b58369233101",
                   "args": {
                     "x": 13.4,
-                    "y": 150.0
+                    "y": 150
                   }
                 },
                 {
                   "group": "abs",
                   "id": "076b3de4-550e-4e32-816d-c91e5d564357",
                   "args": {
-                    "x": 200.0,
-                    "y": 100.0
+                    "x": 200,
+                    "y": 100
                   }
                 }
               ]
@@ -4220,7 +4467,7 @@
                   "id": "efe5c888-920b-48cb-8e09-f39dc1ed10cd",
                   "args": {
                     "x": 0,
-                    "y": 50.0
+                    "y": 50
                   }
                 }
               ]
