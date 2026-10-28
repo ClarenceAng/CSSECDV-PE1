@@ -1305,7 +1305,15 @@
               "name": "Client Zone (Untrusted)",
               "description": "Client side is untrusted, therefore, all input originating from here must be validated on the server. The web application server trusts the client for basic UI interactions but not for data integrity or authorization decisions.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "901ff9e8-bcc1-4e5f-a0ab-614e851b76c7"
+              ],
+              "crossingFlows": [
+                "41c557b0-c08c-42c9-a447-d95cfb990eda",
+                "20b489d8-36bc-48e2-a9cb-0ae05f5048ed",
+                "799ef2b0-61bf-43cf-b9d0-13b5b8bfd059"
+              ]
             }
           },
           {
@@ -1331,7 +1339,18 @@
               "name": "Application Server Zone",
               "description": "Backend Web Application Server (Node.js REST API). Validates all client input and makes all authorization decisions.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "a6787f39-72e0-4ef9-ad6c-7256bf0dfa55"
+              ],
+              "crossingFlows": [
+                "41c557b0-c08c-42c9-a447-d95cfb990eda",
+                "20b489d8-36bc-48e2-a9cb-0ae05f5048ed",
+                "799ef2b0-61bf-43cf-b9d0-13b5b8bfd059",
+                "a6f3f982-13e5-4567-94b0-12507c01743d",
+                "05884832-e1d1-4905-b2d5-24575df80618",
+                "b1483289-99d5-4f3d-a966-ef6505614ad3"
+              ]
             }
           },
           {
@@ -1357,7 +1376,15 @@
               "name": "Database Zone (Trusts Web App Server)",
               "description": "The MongoDB database server trusts calls from the web application server’s identity.",
               "isTrustBoundary": true,
-              "hasOpenThreats": false
+              "hasOpenThreats": false,
+              "containedElements": [
+                "1e077be7-6a32-45cf-b607-50eac0cd118f"
+              ],
+              "crossingFlows": [
+                "a6f3f982-13e5-4567-94b0-12507c01743d",
+                "05884832-e1d1-4905-b2d5-24575df80618",
+                "b1483289-99d5-4f3d-a966-ef6505614ad3"
+              ]
             }
           },
           {
@@ -1381,8 +1408,69 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -1423,11 +1511,14 @@
                     "x": 240,
                     "y": 120
                   }
+                },
+                {
+                  "group": "left",
+                  "id": "adbd946e-a02e-4196-ac21-a5114293d7de"
                 }
               ]
             },
             "id": "901ff9e8-bcc1-4e5f-a0ab-614e851b76c7",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Barista\n(Client Side / Frontend)",
@@ -1501,8 +1592,69 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -1571,7 +1723,6 @@
               ]
             },
             "id": "a6787f39-72e0-4ef9-ad6c-7256bf0dfa55",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
@@ -1848,8 +1999,69 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
                 "abs": {
                   "position": "absolute",
                   "attrs": {
@@ -1890,11 +2102,14 @@
                     "x": 0,
                     "y": 80
                   }
+                },
+                {
+                  "group": "left",
+                  "id": "6487c9f2-ae79-4328-a06e-3f2f91897f8b"
                 }
               ]
             },
             "id": "1e077be7-6a32-45cf-b607-50eac0cd118f",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB\nDatabase",
@@ -2060,7 +2275,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2073,19 +2287,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.1 Login & request incoming orders",
+              "description": "2.1 Barista logs into the staff interface and requests to view incoming orders from the Web Application Server.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "a5744828-aab6-4c14-bd64-7c19264bb495",
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.1 Login & request incoming orders",
                     "textAnchor": "middle",
@@ -2099,6 +2325,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2108,20 +2344,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.1 Login & request incoming orders",
-              "description": "2.1 Barista logs into the staff interface and requests to view incoming orders from the Web Application Server.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "41c557b0-c08c-42c9-a447-d95cfb990eda",
             "source": {
               "cell": "901ff9e8-bcc1-4e5f-a0ab-614e851b76c7",
@@ -2138,7 +2360,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2151,19 +2372,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.4 Order list",
+              "description": "2.4 Web Application Server sends the order list to the Barista for display.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "a5744828-aab6-4c14-bd64-7c19264bb495",
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.4 Order list",
                     "textAnchor": "middle",
@@ -2177,6 +2410,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2186,20 +2429,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.4 Order list",
-              "description": "2.4 Web Application Server sends the order list to the Barista for display.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "20b489d8-36bc-48e2-a9cb-0ae05f5048ed",
             "source": {
               "cell": "a6787f39-72e0-4ef9-ad6c-7256bf0dfa55",
@@ -2216,7 +2445,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2229,19 +2457,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.6 Updated order status",
+              "description": "2.6 Barista sends the updated order status to the Web Application Server (after 2.5 Barista selects an order and updates its status, e.g. from “Received” to “Preparing”).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "a5744828-aab6-4c14-bd64-7c19264bb495",
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.6 Updated order status",
                     "textAnchor": "middle",
@@ -2255,6 +2495,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2264,20 +2514,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.6 Updated order status",
-              "description": "2.6 Barista sends the updated order status to the Web Application Server (after 2.5 Barista selects an order and updates its status, e.g. from “Received” to “Preparing”).",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "799ef2b0-61bf-43cf-b9d0-13b5b8bfd059",
             "source": {
               "cell": "901ff9e8-bcc1-4e5f-a0ab-614e851b76c7",
@@ -2294,7 +2530,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2307,19 +2542,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.2 Query pending orders",
+              "description": "2.2 Web Application Server authenticates and authorizes the Barista, then queries the MongoDB Database for relevant order data.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6",
+                "b996d4bc-4b5c-4fe8-bc90-c5d3d02027d5"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.2 Query pending orders",
                     "textAnchor": "middle",
@@ -2333,6 +2580,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2342,20 +2599,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.2 Query pending orders",
-              "description": "2.2 Web Application Server authenticates and authorizes the Barista, then queries the MongoDB Database for relevant order data.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "a6f3f982-13e5-4567-94b0-12507c01743d",
             "source": {
               "cell": "a6787f39-72e0-4ef9-ad6c-7256bf0dfa55",
@@ -2372,7 +2615,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2385,19 +2627,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.3 Pending order data",
+              "description": "2.3 MongoDB Database retrieves the pending order data and sends it to the Web Application Server.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6",
+                "b996d4bc-4b5c-4fe8-bc90-c5d3d02027d5"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.3 Pending order data",
                     "textAnchor": "middle",
@@ -2411,6 +2665,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2420,20 +2684,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.3 Pending order data",
-              "description": "2.3 MongoDB Database retrieves the pending order data and sends it to the Web Application Server.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "05884832-e1d1-4905-b2d5-24575df80618",
             "source": {
               "cell": "1e077be7-6a32-45cf-b607-50eac0cd118f",
@@ -2450,7 +2700,6 @@
             "attrs": {
               "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2463,19 +2712,31 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.7 Update order record",
+              "description": "2.7 Web Application Server validates the status update and updates the order record in the MongoDB Database.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [],
+              "trustBoundaryIds": [
+                "f4f986fc-673e-48a7-9663-8b115bcf4af6",
+                "b996d4bc-4b5c-4fe8-bc90-c5d3d02027d5"
+              ]
+            },
             "labels": [
               {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
                 "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
                   "labelText": {
                     "text": "2.7 Update order record",
                     "textAnchor": "middle",
@@ -2489,6 +2750,16 @@
                     "strokeWidth": 0
                   }
                 },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
                 "position": {
                   "distance": 0.5,
                   "args": {
@@ -2498,20 +2769,6 @@
                 }
               }
             ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.7 Update order record",
-              "description": "2.7 Web Application Server validates the status update and updates the order record in the MongoDB Database.",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "isTrustBoundary": false
-            },
             "id": "b1483289-99d5-4f3d-a966-ef6505614ad3",
             "source": {
               "cell": "a6787f39-72e0-4ef9-ad6c-7256bf0dfa55",
@@ -2534,7 +2791,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Data Flow 2 – Barista Updates Order Status\n2.2 Server authenticates & authorizes the Barista before querying\n2.5 Barista selects an order and updates its status (e.g. Received → Preparing)"
+                "text": "Data Flow 2 – Barista Updates Order Status\n\nSteps That Happen Inside Each Component:\n2.2 Server authenticates & authorizes the Barista before querying\n2.5 Barista selects an order and updates its status (e.g. Received → Preparing)"
               }
             },
             "visible": true,
@@ -2543,8 +2800,15 @@
             "id": "d34ba988-d0c2-4cc9-9f90-79fc6bab147d",
             "data": {
               "type": "tm.Text",
-              "name": "Data Flow 2 – Barista Updates Order Status\n2.2 Server authenticates & authorizes the Barista before querying\n2.5 Barista selects an order and updates its status (e.g. Received → Preparing)",
+              "name": "Data Flow 2 – Barista Updates Order Status\n\nSteps That Happen Inside Each Component:\n2.2 Server authenticates & authorizes the Barista before querying\n2.5 Barista selects an order and updates its status (e.g. Received → Preparing)",
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
